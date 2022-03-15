@@ -1,0 +1,80 @@
+#vanta-container {
+    min-height: 100vh;
+}
+
+.projects-content {
+    padding-top: 15vh;
+  }
+  
+  .projects-content .item {
+    margin: 20px;
+    margin-bottom: 50px;
+  }
+  
+  .projects-content .item .text-content {
+    background-color: #fff;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .projects-content .item .text-content h4 {
+    margin-top: 0px;
+    font-size: 19px;
+    font-weight: 600;
+  }
+  
+  .projects-content .item .text-content span {
+    font-style: normal;
+    font-size: 17px;
+    font-weight: 700;
+    color: #ff7d27;
+  }
+
+  .projects-content .project-title .line-decor {
+    width: 45px;
+    height: 3px;
+    background-color: #ff7d27;
+    margin: 20px 0px 20px 0px;
+  }
+  
+  .projects-content .testimonials-item .line-decor {
+    width: 45px;
+    height: 3px;
+    background-color: #ff7d27;
+    margin: 20px auto 15px auto;
+  }
+  
+  .projects-content .testimonials-item .text-content p{
+    font-size: 17px;
+  }
+
+  .primary-button a {
+    display: inline-block;
+    background-color: #ff7d27;
+    padding: 15px 24px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-size: 11px;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    margin: auto;
+  }
+
+  .primary-button {
+      display: flex;
+      justify-content: center;
+  }
+
+  @media (max-width: 767px) {
+    .primary-button {
+      display: flex;
+      justify-content: center;
+      padding-bottom: 30px;
+  }
+
+    #vanta-container {
+      min-height: 120vh;
+  }
+  }
